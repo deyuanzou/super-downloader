@@ -15,5 +15,9 @@
 
 ### 使用说明
 
-- 在download.txt里输入要下载资源网址，每个网址独占一行
-- 运行Main.java
+- 在download.txt文件里输入要下载资源网址，每个网址独占一行
+- download.txt文件的位置默认在项目的conf目录下
+- 在config.properties文件里定义thread-num为同时选择的线程数
+- 在config.properties文件里定义target-dir为下载文件保存的目录(默认为G:/foo)，建议改为D:/foo
+- config.properties文件的位置默认在项目的conf目录下
+- 运行Main.java开始下载
