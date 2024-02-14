@@ -20,4 +20,5 @@
 - 在config.properties文件里定义thread-num为同时选择的线程数
 - 在config.properties文件里定义target-dir为下载文件保存的目录(默认为G:/foo)，建议改为D:/foo
 - config.properties文件的位置默认在项目的conf目录下
+- idea目录下的`代码实现.xmind`文件请用xmind软件打开
 - 运行Main.java开始下载
